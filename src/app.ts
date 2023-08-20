@@ -8,7 +8,6 @@ const app = express();
 
 app.use(express.json());
 
-
 app.use('/people', peopleRouter);
 app.use('/movies', moviesRouter);
 //pp.use('/actors', actorsRouter);
